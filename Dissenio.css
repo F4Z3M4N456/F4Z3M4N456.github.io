@@ -1,0 +1,61 @@
+body{
+    background: rgb(127,58,180);
+    background: linear-gradient(90deg, rgba(127,58,180,1) 22%, rgba(29,101,253,1) 100%, rgba(252,176,69,1) 100%);
+    display: flex;
+    justify-content: center;
+}
+.info__titulo{
+    display: flex;
+    justify-content: left;
+    margin-right: 500px;
+}
+.imgsdearriba{
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    margin-top: 100px;
+    
+}
+.texto{
+    font-family: 'Ubuntu';
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: aqua;
+    flex-direction: column;
+    margin-left: 0px;
+    margin-top: 50px;
+
+}
+.info__titulo{
+    font-family: 'Ubuntu';
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 100px;
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.info{
+    justify-content: center;
+    margin-bottom: 100px;
+    
+    
+}
+button{
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 0px;
+}
+.rdt{
+    margin-left: 30px;
+}
+.yt{
+    margin-left: 40px;
+    margin-right: 10px;
+}
